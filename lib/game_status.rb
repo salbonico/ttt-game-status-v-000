@@ -20,5 +20,6 @@ def won?(board)
       if match? == true
         return combo
   end
+end
   return nil
 end

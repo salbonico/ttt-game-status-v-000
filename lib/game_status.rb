@@ -9,5 +9,14 @@ WIN_COMBINATIONS =[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,
 
 
 def won?(board)
-puts false
+  temp =  combo.all? do |number|
+     position_taken?(board, number)
+   end
+if temp == true
+  puts "true"
+else
+  puts "false"
 end
+end
+
+won?(["X", "X", "X", "O", "O", " ", " ", " ", " "])

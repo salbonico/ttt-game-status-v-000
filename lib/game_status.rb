@@ -10,7 +10,6 @@ def won?(board)
   WIN_COMBINATIONS.each |combo|
    trigger = combo.all? do |number|
      board[number] != " "
-   end
    if trigger == true
      return combo
    end

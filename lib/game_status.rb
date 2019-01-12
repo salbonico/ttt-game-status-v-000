@@ -14,6 +14,5 @@ def won?(board)
    if trigger == true
      return combo
    end
- end
- return nil
- end
+   end
+end

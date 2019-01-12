@@ -12,7 +12,11 @@ def won?(board)
   temp =  combo.all? do |number|
      position_taken?(board, number)
    end
-puts temp
+if temp == true
+  puts "true"
+else
+  puts "false"
+end
 
 
 end

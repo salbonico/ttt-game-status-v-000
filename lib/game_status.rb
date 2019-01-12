@@ -19,7 +19,8 @@ def won?(board)
   WIN_COMBINATIONS.each |combo| do
       if match? == true
         return combo
-  end
+     end
 end
+
   return nil
 end
